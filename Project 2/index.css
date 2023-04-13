@@ -1,0 +1,519 @@
+*{
+
+margin-top: 0;
+margin-left: 0;
+
+}
+
+@media screen {
+    
+}
+
+
+.topnav{
+
+    display: inline;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    margin-left: 180px;
+    z-index: 1;
+    background-color: black;
+    }
+    
+    .topnav a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    padding: 20px;
+    position: relative;
+    }
+    .topnav a:hover{
+    transition: 1s;
+    background-color: #04aa6d;
+    color: white;
+    }
+    .sidenav{
+    
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 180px;
+    background-color: black;
+    
+    }
+    
+    .sidenav a{
+    
+    
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    
+    }
+    
+    .sidenav a:hover{
+    transition: 1s;
+    background-color: #04aa6d;
+    color: white;
+    
+    
+    }
+    
+    .header{
+    background-color: black;
+    margin-left: 180px;
+    width: 100%;
+    padding: 50px;
+    background-image: url(./images/headerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 200px;
+    
+    }
+    
+    .header h1{
+
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-weight: bold;
+    font-style:normal;    
+
+}
+
+.gallery{
+
+display: flex;
+flex-wrap:wrap;
+align-items: center;
+width: 100%;
+margin: 50,0;
+}
+
+.card{
+margin-top: 100px;
+margin-left: 200px;
+border: 5px solid black;
+box-shadow: grey 10px 20px;
+flex-wrap: wrap; 
+width: 20%;
+justify-content: space-evenly;
+
+}
+
+    .card img{
+align-items: center;
+width: 300px;
+height: 300px;
+
+
+    }
+
+    .card h1 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+flex-wrap: wrap;
+    }
+
+    .card h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+border: 5px solid;
+background-color: black;
+color: white;
+padding: 10px;
+flex-wrap: wrap;
+    }
+
+.card h2:hover{
+
+background-color: #04aa6d;
+color: white;
+transition: 1s;
+transform: scale(1.1);
+
+}
+
+    .card p{
+
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+
+    }
+
+.card:hover {
+transition: 1s;
+transform: scale(1.1);
+
+}
+
+    .container{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+    }
+
+    .profilecard{
+  
+margin-left: 200px;
+margin-top: 100px;
+background-color: #04aa6d;
+padding: 40px 90px;
+border-radius: 50px;
+text-align: center;
+position: relative;
+transition: 1s;
+
+    }
+
+    .profilecard img{
+
+width: 200px;
+border-radius: 50%;
+background: white;
+padding: 10px;
+
+
+    }
+
+    .profilecard h1{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+color: white;
+
+    }
+
+    .profilecard p{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color: white;
+
+    }
+
+    .profilecard:hover{
+
+box-shadow: 10px 10px 10px grey;
+transform: scale(1.1);
+
+    }
+
+    .logo img{
+margin-top: 30px;
+width: 50px;
+border-radius: 0px;
+padding: 0px;
+background: none;
+margin-bottom: 20px;
+
+    }
+    form{
+        text-align: center;
+        background-image: url(./images/bg.jpg);
+        border: 5px solid black;
+        border-radius: 50px;
+     width: 100vh;
+        margin-top: 100px;
+        
+        }
+        
+        .noopacity{
+        font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:black;
+            font-weight: bolder;
+        }
+        
+        form input{
+        
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: justify;
+        
+        }
+        
+        .button{
+
+display: inline;
+transition: 1s;
+letter-spacing: 50px;
+
+
+        }
+        
+        
+        .button input{
+        
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        
+        }
+
+        .button input:hover{
+
+            transition: 1s;
+            transform: scale(1.2);
+        }
+
+        body{
+        
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+.footer{
+margin-left: 200px;
+width: 100%;
+background-color: black;
+margin-top: 100px;
+padding: 50px;
+}
+
+.frow{
+
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.fcol{
+
+width: 25%;
+
+}
+
+.fcol h1{
+margin-top: 100px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
+color: white;
+
+}
+
+
+
+.fcol a{
+
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+font-size: 40px;
+color: white;
+
+margin-bottom: 10px;
+display: block;
+transition: all 0.3s;
+}
+
+.fcol a:hover{
+
+padding-left: 10px;
+text-decoration: underline red;
+transform: scale(1.1);
+
+}
+
+.fcol h2{
+
+color: white;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img img{
+
+height: 100px;
+width: 100px;
+display: inline;
+}
+
+.img{
+
+    display: inline;
+}
+
+.section{
+
+margin-top: 100px;
+margin-left: 200px;
+width: 100%;
+background-color:papayawhip;
+padding: 50px;
+border-radius: 50px;
+}
+
+.section h1{
+text-align: center;
+font-size: 100px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.section h2{
+text-align: justify;
+font-size: 40px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter
+}
+
+.section2{
+
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 100%;
+    background-color:papayawhip;
+    padding: 50px;
+    border-radius: 50px;
+    }
+    
+    .section2 h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    .section2 h2{
+    text-align: justify;
+    font-size: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter
+    }
+
+
+    .section3{
+
+        margin-top: 100px;
+        margin-left: 200px;
+        width: 100%;
+        background-color:papayawhip;
+        padding: 50px;
+        box-shadow: #c1c1c1 10px 10px 10px 10px ;  
+        }
+        
+        .section3 h1{
+        text-align: center;
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+        }
+        .section3 h2{
+        text-align: justify;
+        font-size: 40px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter
+        }
+
+        .head{
+
+            margin-top: 50px;
+            margin-left: 200px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding:50px;
+
+        }
+
+        .head h1{
+            text-align: center;
+            font-size: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+        .head h2{
+
+            text-align: center;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+.cformcont{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+        .cform{
+
+margin-top: 100px;
+margin-left: 200px;
+
+background-color:#ffefd5;
+padding: 50px;
+        }
+
+        .cform h1{
+            text-align: center;   
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+        }
+
+        .cform label{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+margin: 20px;
+
+        }
+
+        .cform input{
+margin: 10px;
+background-color: transparent;
+border: none;
+width: 100%;
+height: 100%;
+outline: none;
+border-bottom: solid black;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px;        
+}
+
+.btn{
+margin-top: 50px;
+transition: 0.5s;
+background-color: black;
+
+}
+.btn input{
+
+border: none;
+color: white;
+
+
+}
+
+.btn:hover{
+
+background-color:#163d78
+ ;
+
+}
